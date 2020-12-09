@@ -1,0 +1,63 @@
+body{
+    background-color: gray;
+}
+.StarterDiv {
+   height : 100px;
+   background-color: orange;
+   text-align: center;
+  }
+.TitleDiv {
+    margin: 0cm;
+    color: orange;
+    border: outset black;
+    background-color: black ;
+    text-align: center;
+}
+  
+.sTitleDiv {
+    margin: 0cm;
+    color: white;
+    border: outset black;
+    background-color: black;
+    text-align: center;
+}
+
+.RedDiv {
+    margin: 0cm;
+    border: 1px outset rgb(62, 245, 252);
+    height: 175px;
+    background-color: rgb(62, 245, 252);
+    text-align: center;
+}
+.CopyrightDiv {
+    margin:0cm;
+    text-align: center;
+}
+.SectionTitleDiv {
+    background-color: gray;
+    text-align: center;
+}
+.SectionBodyDiv{
+    background-color: gray;
+    font-size: 0.5cm;
+    text-align: left;
+}
+.pics {
+    max-width: 300px;
+}
+.vids {
+  max-height: 500px;
+}
+.SectionIAM {
+    color: orange;
+    font-size: 1cm;
+    text-align: center;
+}
+.ATitleListDiv {
+    border: 5px outset lightslategray;
+    background-color: lightslategray;
+    text-align: left;
+}
+.ShortcutDiv {
+    text-align: center;
+}
