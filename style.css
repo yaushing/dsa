@@ -30,7 +30,7 @@ body{
     background-color: rgb(62, 245, 252);
     text-align: center;
 }
-#CopyrightDiv {
+.CopyrightDiv {
     margin:0cm;
     text-align: center;
 }
