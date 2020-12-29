@@ -5,6 +5,7 @@ body{
    height : 100px;
    background-color: orange;
    text-align: center;
+   margin: 0px;
   }
 .TitleDiv {
     margin: 0cm;
@@ -65,5 +66,5 @@ body{
     max-width: 90px;
 }
 .shortcutpic {
-    max-width: 100px;
+    max-height: 100px;
 }
