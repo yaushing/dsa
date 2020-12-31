@@ -1,5 +1,7 @@
 body{
     background-color: gray;
+    margin:0px;
+    
 }
 .StarterDiv {
    height : 100px;
@@ -44,10 +46,18 @@ body{
     text-align: left;
 }
 .pics {
-  max-width: 300px;
+  border: solid white 3px;
+  padding: 10px;
+  height: 376px;
+  width: 300px;
+  margin: 5px;
 }
 .vids {
-  max-height: 500px;
+  border: solid white 3px;
+  padding: 10px;
+  height: 376px;
+  width:300px;
+  margin: 5px;
 }
 .SectionIAM {
     color: orange;
@@ -65,4 +75,7 @@ body{
 }
 .shortcutpic {
     max-width: 50px;
+}
+.para {
+    padding: 30px;
 }
