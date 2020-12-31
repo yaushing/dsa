@@ -45,20 +45,29 @@ body{
     font-size: 0.5cm;
     text-align: left;
 }
-.pics {
+.picsH {
   border: solid white 3px;
-  padding: 10px;
-  height: 376px;
-  width: 300px;
+  padding: 5px;
+  max-width:300px;
   margin: 5px;
 }
+.picsV {
+    border: solid white 3px;
+    padding: 5px;
+    max-width: 230px;
+    margin: 5px;
+  }
 .vids {
   border: solid white 3px;
-  padding: 10px;
-  height: 376px;
-  width:300px;
+  padding: 5px;
   margin: 5px;
 }
+.vidsV {
+    border: solid white 3px;
+    padding: 5px;
+    max-height: 374px;
+    margin: 5px;
+  }
 .SectionIAM {
     color: orange;
     font-size: 50 px;
@@ -78,4 +87,7 @@ body{
 }
 .para {
     padding: 30px;
+}
+#QTPSpic {
+    max-height:180px;
 }
