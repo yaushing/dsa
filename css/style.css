@@ -47,8 +47,9 @@ body{
 }
 .picsH {
   border: solid white 3px;
+  background-color: white;
   padding: 5px;
-  max-width:300px;
+  max-width:500px;
   margin: 5px;
 }
 .picsV {
@@ -93,6 +94,7 @@ body{
 }
 .flex-container {
     display: flex;
+    justify-content:center;
   }
   
 .flex-container > div {
@@ -123,4 +125,9 @@ a {
     padding: 30px;
     font: bold 30px "Helvetica";
 }
-* {box-sizing:border-box}
+.imgs {
+    width:500px;
+}
+#mySlides{ 
+    justify-content: center;
+}
