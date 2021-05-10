@@ -1,7 +1,7 @@
 body{
     background-color: gray;
     margin:0px;
-    
+    justify-content: center;
 }
 .StarterDiv {
    height : 100px;
