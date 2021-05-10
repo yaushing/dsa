@@ -112,7 +112,7 @@ a {
 }
 .Achievement_Shortcut{
     display: flex;
-    background-color: DodgerBlue;
+    justify-content: center;
 }
 .Achievement_Shortcut > div {
     background-color:#f1f1f1;
