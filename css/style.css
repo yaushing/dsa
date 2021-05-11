@@ -2,6 +2,7 @@ body{
     background-color: gray;
     margin:0px;
     justify-content: center;
+    font-family: 'Quicksand', sans-serif;
 }
 .StarterDiv {
    height : 100px;
@@ -12,25 +13,27 @@ body{
 .TitleDiv {
     margin: 0cm;
     color: orange;
-    border: outset black;
+    border: 5px solid black;
     background-color: black ;
     text-align: center;
+    font-family: "Give You Glory", cursive;
 }
   
 .sTitleDiv {
     margin: 0cm;
     color: white;
-    border: outset black;
+    border: solid black;
     background-color: black;
     text-align: center;
 }
 
 .RedDiv {
     margin: 0cm;
-    border: 1px outset rgb(62, 245, 252);
+    border: 1px solid rgb(62, 245, 252);
     height: 175px;
     background-color: rgb(62, 245, 252);
     text-align: center;
+    font-family: "Give You Glory", cursive;
 }
 .CopyrightDiv {
     margin:0cm;
@@ -39,15 +42,16 @@ body{
 .SectionTitleDiv {
     background-color: gray;
     text-align: center;
+    font-family: "Give You Glory", cursive;
 }
 .SectionBodyDiv{
     background-color: gray;
     font-size: 0.5cm;
     text-align: left;
+    font-family: "Give You Glory", cursive;
 }
 .picsH {
   border: solid white 3px;
-  background-color: white;
   padding: 5px;
   max-width:500px;
   margin: 5px;
@@ -73,18 +77,20 @@ body{
     color: orange;
     font-size: 50 px;
     text-align: center;
+    font-family: "Give You Glory", cursive;
 }
 .ATitleListDiv {
     border: 5px solid lightslategray;
     background-color: lightslategray;
     text-align: center;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .logopic {
     max-width: 90px;
 }
 .shortcutpic {
-    max-width: 75px;
+    max-width: calc(28px + 4vw);
 }
 .para {
     padding: 30px;
@@ -113,17 +119,18 @@ a {
 .Achievement_Shortcut{
     display: flex;
     justify-content: center;
-}
-.Achievement_Shortcut > div {
-    background-color:#f1f1f1;
-    color: black;
-    margin: 10px;
-    padding: 20px;
+    margin: 15px;
     font-size: 30px;
-  }
+}
+.btn {
+    margin: 8px;
+
+}
 #AIntro {
     padding: 30px;
-    font: bold 30px "Helvetica";
+    font-family: 'Give You Glory', cursive;
+    font-size: calc(16px + 3vw);
+    font-weight: 700;
 }
 .imgs {
     width:500px;
@@ -131,3 +138,4 @@ a {
 #mySlides{ 
     justify-content: center;
 }
+
