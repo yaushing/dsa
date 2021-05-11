@@ -6,14 +6,39 @@
         <title>Coding</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--fontawesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+        <!-- googlefont -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Give+You+Glory&family=Long+Cang&family=Quicksand:wght@300;400;600&family=Raleway:wght@300;400;700&display=swap"
+        rel="stylesheet"> 
         <link rel="shortcut icon" type="image/jpg" href="images/JKlogo.png"/>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
-        <div class="StarterDiv">
-            <a href="index.html"><img class = "logopic" src = "images/JKlogo.png"></a>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img class="logopic" src="images/JKlogo.png" alt="i am jamie kam" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="achievements.html">Achievements</a>
+                    <a class="nav-link active" aria-current="page" href="coding.html">Coding</a>
+                    <a class="nav-link" href="violin.html">Violin</a>
+                    <a class="nav-link" href="sports.html">Sports</a>
+                    <a class="nav-link" href="dream_job.html">Dream Job</a>
+                </div>
+                </div>
+            </div>
+        </nav>
         <div class="SectionIAM">
             <h1>I AM...A CODER</h1>
         </div>
@@ -65,17 +90,20 @@
             </div>
           </div>
         </div>
-      <script type = "text/javascript" src="js/jquery.js"></script>
-      <script type= "text/javascript" src="js/bootstrap.min.js"></script>
-      <script type= "text/javascript" src="js/script.js"></script>
-               <div class="RedDiv">
+        <div class="bottomnav">
             <h2>Shortcuts</h2>
             <a href="violin.html"><img class="shortcutpic" src="images/Violinlogo.png"></a>     
             <a href="coding.html"><img class="shortcutpic" src ="images/Computerlogo.png"></a>      
             <a href="sports.html"><img class="shortcutpic" src ="images/Spartanlogo.png"></a>      
-            <a href = "Dream_Occupation.html"><img class="shortcutpic" src = "images/JobIcon.png" alt="An orange circle with a white briefcase"></a>
+            <a href="dream_job.html"><img class="shortcutpic" src = "images/JobIcon.png" alt="An orange circle with a white briefcase"></a>
             <a href="achievements.html"><img class="shortcutpic" src="images/AchievementsLogo.png"></a>
             <a href="index.html"><img class="shortcutpic" src="images/Homelogo.png"></a>
-          </div>
+        </div>
+        <div class="CopyrightDiv">
+            <p>Copyright © 2020 JK. All rights reserved</p>
+        </div> 
+        <script type="text/javascript" src="assets/js/jquery.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/js/script.js"></script>
     </body>
 </html>
