@@ -99,15 +99,6 @@ body{
 #QTPSpic {
     max-height:180px;
 }
-.flex-container {
-    display: flex;
-    justify-content:center;
-  }
-  
-.flex-container > div {
-    margin: 5px;
-    font-size: 18px;
-  }
 a {
     color:blue
 }
