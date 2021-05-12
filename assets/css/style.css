@@ -10,7 +10,7 @@ body{
 .TitleDiv {
     margin: 0cm;
     color: orange;
-    padding: 20px;
+    padding: 10px;
     border: 5px solid black;
     background-color: black ;
     text-align: center;
@@ -103,6 +103,8 @@ a {
     color:blue
 }
 #aristotle-quote {
+    border: none;
+    padding: 10px;
     font-family: 'Give You Glory', cursive;
     font-size: calc(20px +3vw);
 }
@@ -128,8 +130,10 @@ a {
 .imgs {
     width:500px;
 }
+
 #mySlides{ 
     justify-content: center;
+    max-width: 500px;
 }
 ul{
     padding: 30px;
