@@ -1,5 +1,5 @@
 # This will be my DSA application
-# credits to khan academy, googlefont, fontawesome
+# credits to Khan Academy, Googlefont, Fontawesome, Bootstrap
 
 font-family: 'Give You Glory', cursive;
 
