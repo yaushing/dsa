@@ -103,7 +103,8 @@ a {
     background-color: black ;
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    font-size: calc(50px + 5vw)
+    font-size: calc(50px + 5vw);
+    height: 80px;
 }
   
 .sTitleDiv {
@@ -111,6 +112,7 @@ a {
     background-color: black;
     text-align: center;
     padding: 5px 30px;
+    height: 80px;
 }
 
 #aristotle-quote {
