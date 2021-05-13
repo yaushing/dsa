@@ -15,32 +15,29 @@ body{
     justify-content: center;
     font-family: 'Quicksand', sans-serif;
 }
+
+a {
+    color:blue
+}
+
 .navbar {
    background-color: orange;
 }
+.logopic {
+    max-width: 90px;
+}
+
+.para {
+    padding: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
 .SectionIAM {
     padding: 30px;
     color: orange;
     font-size: 50px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
-}
-/* Index.html */
-.TitleDiv {
-    margin: 0cm;
-    color: orange;
-    padding: 15px;
-    background-color: black ;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-size: calc(50px + 5vw)
-}
-  
-.sTitleDiv {
-    color: white;
-    background-color: black;
-    text-align: center;
-    padding: 5px 30px;
 }
 
 .SectionTitleDiv {
@@ -73,57 +70,58 @@ body{
     text-align: center;
 }
 
-/* ------------------------------------- */
-/* _____________________________________ */
 /* Pictures and Videos */
 .picsH {
-  border: solid white 3px;
-  padding: 5px;
-  max-width:500px;
-  margin: 5px;
-}
-.picsV {
     border: solid white 3px;
     padding: 5px;
-    max-width: 200px;
+    max-width:500px;
     margin: 5px;
   }
-.vids {
-  border: solid white 3px;
-  padding: 5px;
-  margin: 5px;
-}
-.vidsV {
+  .picsV {
+      border: solid white 3px;
+      padding: 5px;
+      max-width: 200px;
+      margin: 5px;
+    }
+  .vids {
     border: solid white 3px;
     padding: 5px;
-    max-height: 374px;
     margin: 5px;
   }
+  .vidsV {
+      border: solid white 3px;
+      padding: 5px;
+      max-height: 374px;
+      margin: 5px;
+    }
 
-/* ________________________________ */
+/* _____________________________________ */
 
 
+/* Index.html */
 
-.logopic {
-    max-width: 90px;
-}
-
-.para {
-    padding: 30px;
+.TitleDiv {
+    margin: 0cm;
+    color: orange;
+    padding: 15px;
+    background-color: black ;
+    text-align: center;
     font-family: 'Raleway', sans-serif;
+    font-size: calc(50px + 5vw)
 }
-
-a {
-    color:blue
+  
+.sTitleDiv {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 5px 30px;
 }
-/* ----------------------------------- */
-/* index page */
 
 #aristotle-quote {
     border: none;
     padding: 10px 5px;
     font-family: 'Give You Glory', cursive;
-    font-size: calc(20px + 3vw);
+    font-size: calc(18px + 3vw);
 }
 
 /* ----------------------------------- */
@@ -168,9 +166,7 @@ ul {
     padding: 5px;
     margin: 5px;
 }
-#QTPSpic {
-    max-height:180px;
-}
+
 #mySlides { 
     justify-content: center;
     max-width: 480px;
