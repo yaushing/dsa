@@ -180,5 +180,8 @@ ul {
     max-width: calc(100px + 10vw);
     max-height: calc(180px + 10vw);
 }
+.violin_pic-vid {
+    max-width: calc(50px + 20vw);
+}
 /* ----------------------------------- */
 /* sports page */
