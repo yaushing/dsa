@@ -29,6 +29,7 @@ a {
 
 .para {
     padding: 30px;
+    font-size: calc(12px + 0.75vw);
     font-family: 'Raleway', sans-serif;
 }
 
@@ -178,11 +179,18 @@ ul {
 /* ----------------------------------- */
 /* violin page */
 .violin_iframes {
-    max-width: calc(100px + 10vw);
-    max-height: calc(180px + 10vw);
+    padding-top: 30px;
+    width: calc(50px + 10vw);
+    height: 380px;
 }
-.violin_pic-vid {
-    max-width: calc(50px + 20vw);
+#violin_pic {
+    max-width: calc(50px + 25vw);
+    padding-top: 30px;
+}
+#violin_vid {
+    padding-top: 30px;
+    width: calc(50px + 10vw);
+    height: 380px;
 }
 /* ----------------------------------- */
 /* sports page */
