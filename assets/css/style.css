@@ -96,13 +96,15 @@ a {
 
 
 /* Index.html */
-
+.indexhead {
+    height: calc(500px + 3vw);
+    background-color: black;
+    padding-top: 80px;
+}
 .TitleDiv {
-    margin: 0cm;
     color: orange;
     padding: 15px;
     background-color: black ;
-    text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: calc(50px + 5vw);
 }
@@ -110,7 +112,6 @@ a {
 .sTitleDiv {
     color: white;
     background-color: black;
-    text-align: center;
     padding: 5px 30px;
 }
 
