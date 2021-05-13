@@ -18,8 +18,14 @@ body{
 .navbar {
    background-color: orange;
 }
-
-/* page headers */
+.SectionIAM {
+    padding: 30px;
+    color: orange;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+/* Index.html */
 .TitleDiv {
     margin: 0cm;
     color: orange;
@@ -69,7 +75,7 @@ body{
 
 /* ------------------------------------- */
 /* _____________________________________ */
-
+/* Pictures and Videos */
 .picsH {
   border: solid white 3px;
   padding: 5px;
@@ -96,21 +102,7 @@ body{
 
 /* ________________________________ */
 
-.SectionIAM {
-    padding: 30px;
-    color: orange;
-    font-size: 50px;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-}
-.ATitleListDiv {
-    border: 5px solid gray;
-    background-color: lightslategray;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    font-family: 'Give You Glory', sans-serif;
-}
+
 
 .logopic {
     max-width: 90px;
@@ -120,9 +112,7 @@ body{
     padding: 30px;
     font-family: 'Raleway', sans-serif;
 }
-#QTPSpic {
-    max-height:180px;
-}
+
 a {
     color:blue
 }
@@ -143,6 +133,14 @@ ul {
     padding: 5px 60px;
     font-family: 'Raleway', sans-serif;
 }
+.ATitleListDiv {
+    border: 5px solid gray;
+    background-color: lightslategray;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-family: 'Give You Glory', sans-serif;
+}
 .Achievement_Shortcut{
     display: flex;
     justify-content: center;
@@ -159,20 +157,7 @@ ul {
     font-size: calc(16px + 1vw);
     font-weight: 700;
 }
-.imgs {
-    width:500px;
-}
 
-.violin_iframes {
-    max-width: calc(100px + 10vw);
-    max-height: calc(180px + 10vw);
-}
-.violin_pic-vid{
-    max-width: calc(100px + 7vw);
-    padding: 5px;
-    margin: 0;
-    border: 1px solid white;
-}
 
 /* ----------------------------------- */
 /* coding page */
@@ -183,7 +168,9 @@ ul {
     padding: 5px;
     margin: 5px;
 }
-
+#QTPSpic {
+    max-height:180px;
+}
 #mySlides { 
     justify-content: center;
     max-width: 480px;
@@ -193,6 +180,9 @@ ul {
 }
 /* ----------------------------------- */
 /* violin page */
-
+.violin_iframes {
+    max-width: calc(100px + 10vw);
+    max-height: calc(180px + 10vw);
+}
 /* ----------------------------------- */
 /* sports page */
