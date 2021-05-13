@@ -63,7 +63,7 @@ body{
 }
 
 .CopyrightDiv {
-    margin:0cm;
+    margin: 0px;
     text-align: center;
 }
 
@@ -138,8 +138,10 @@ a {
 
 /* ----------------------------------- */
 /* achievement page */
-.AList{
-    font-size: calc(14px + 2vw);
+ul {
+    font-size: calc(14px + 1vw);
+    padding: 5px 60px;
+    font-family: 'Raleway', sans-serif;
 }
 .Achievement_Shortcut{
     display: flex;
@@ -161,14 +163,6 @@ a {
     width:500px;
 }
 
-#mySlides{ 
-    justify-content: center;
-    max-width: 500px;
-}
-ul{
-    padding: 30px;
-    font-family: 'Raleway', sans-serif;
-}
 .violin_iframes {
     max-width: calc(100px + 10vw);
     max-height: calc(180px + 10vw);
@@ -182,7 +176,21 @@ ul{
 
 /* ----------------------------------- */
 /* coding page */
+#mopeio {
+    max-width: 480px;
+    height: 364px;
+    border: solid beige 3px;
+    padding: 5px;
+    margin: 5px;
+}
 
+#mySlides { 
+    justify-content: center;
+    max-width: 480px;
+    border: solid beige 3px;
+    padding: 5px;
+    margin: 5px;
+}
 /* ----------------------------------- */
 /* violin page */
 
