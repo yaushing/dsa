@@ -1,3 +1,14 @@
+/* organize css codes in the following priority
+1. pages & sections
+2. by html tags
+3. by ids
+4. by classes */
+/* use comments for trails and it is
+preferable for lowercase and snakecase 
+- use camelcase for js scripts */
+
+/* all pages */
+
 body{
     background-color: gray;
     margin:0px;
@@ -7,36 +18,25 @@ body{
 .navbar {
    background-color: orange;
 }
+
+/* page headers */
 .TitleDiv {
     margin: 0cm;
     color: orange;
-    padding: 10px;
-    border: 5px solid black;
+    padding: 15px;
     background-color: black ;
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    font-size: calc(50px + 4vw)
+    font-size: calc(50px + 5vw)
 }
   
 .sTitleDiv {
-    margin: 0cm;
     color: white;
-    border: solid black;
     background-color: black;
     text-align: center;
+    padding: 5px 50px;
 }
 
-.bottomnav {
-    height: 100px +1vh;
-    padding: 15px;
-    background-color: orange;
-    text-align: center;
-    font-family: "Give You Glory";
-}
-.CopyrightDiv {
-    margin:0cm;
-    text-align: center;
-}
 .SectionTitleDiv {
     background-color: gray;
     text-align: center;
@@ -48,6 +48,28 @@ body{
     text-align: left;
     font-family: "Give You Glory";
 }
+
+/* footer  */
+.bottomnav {
+    height: calc(90px + 4vw);
+    padding: 15px;
+    background-color: orange;
+    text-align: center;
+    font-family: "Give You Glory";
+}
+
+.shortcutpic {
+    max-width: calc(26px + 3vw);
+}
+
+.CopyrightDiv {
+    margin:0cm;
+    text-align: center;
+}
+
+/* ------------------------------------- */
+/* _____________________________________ */
+
 .picsH {
   border: solid white 3px;
   padding: 5px;
@@ -71,10 +93,13 @@ body{
     max-height: 374px;
     margin: 5px;
   }
+
+/* ________________________________ */
+
 .SectionIAM {
     padding: 30px;
     color: orange;
-    font-size: 50 px;
+    font-size: 50px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
@@ -82,16 +107,15 @@ body{
     border: 5px solid gray;
     background-color: lightslategray;
     text-align: center;
-    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 5px;
     font-family: 'Give You Glory', sans-serif;
 }
 
 .logopic {
     max-width: 90px;
 }
-.shortcutpic {
-    max-width: calc(28px + 4vw);
-}
+
 .para {
     padding: 30px;
     font-family: 'Raleway', sans-serif;
@@ -102,14 +126,20 @@ body{
 a {
     color:blue
 }
+/* ----------------------------------- */
+/* index page */
+
 #aristotle-quote {
     border: none;
     padding: 10px;
     font-family: 'Give You Glory', cursive;
-    font-size: calc(20px +3vw);
+    font-size: calc(20px + 3vw);
 }
+
+/* ----------------------------------- */
+/* achievement page */
 .AList{
-    font:none 25px sans-serif;
+    font-size: calc(14px + 2vw);
 }
 .Achievement_Shortcut{
     display: flex;
@@ -124,7 +154,7 @@ a {
 #AIntro {
     padding: 30px;
     font-family: 'Give You Glory', cursive;
-    font-size: calc(16px + 3vw);
+    font-size: calc(16px + 1vw);
     font-weight: 700;
 }
 .imgs {
@@ -146,6 +176,15 @@ ul{
 .violin_pic-vid{
     max-width: calc(100px + 7vw);
     padding: 5px;
-    margin: none;
+    margin: 0;
     border: 1px solid white;
 }
+
+/* ----------------------------------- */
+/* coding page */
+
+/* ----------------------------------- */
+/* violin page */
+
+/* ----------------------------------- */
+/* sports page */
