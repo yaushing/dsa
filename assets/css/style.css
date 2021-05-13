@@ -22,6 +22,7 @@ a {
 
 .navbar {
    background-color: orange;
+   font-size: 23px;
 }
 .logopic {
     max-width: 90px;
@@ -172,22 +173,32 @@ ul {
 }
 /* ----------------------------------- */
 /* violin page */
-.violin_iframes {
-    padding-top: 30px;
-    width: calc(50px + 10vw);
-    height: 380px;
-}
+
 #violin_pic {
     max-width: 300px;
+    border: solid darkslategray 2px;
+    border-radius: 10px;
 }
 #violin_vid {
-    padding-top: 30px;
-    width: calc(50px + 10vw);
-    height: 380px;
+    max-width: 280px;
+    margin: -40% 0;
 }
-
-.para {
+.vidflow {
+    max-width: 280px;
+    overflow:hidden;
+    display:block;
+    border: solid darkslategray 2px;
     padding: 5px;
+    margin: 5px 5px 30px 5px;
+}
+.violin_iframes {
+    max-width: 280px;
+    border: solid darkslategray 2px;
+    padding: 5px;
+    margin: 5px 5px 30px 5px;
+}
+.para {
+    padding: 10px 5px;
     font-size: calc(12px + 0.75vw);
     font-family: 'Raleway', sans-serif;
     min-width: 300px;
