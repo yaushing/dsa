@@ -221,20 +221,23 @@ ul {
 /* dream job page */
 
 #Geneticpic1 {
-    height: calc(100px + 35vw);
-    width: calc(100px + 35vw);
-    padding: 30px;
+    margin: 5px;
+    height: calc(100px + 30vw);
+    width: calc(100px + 30vw);
+    padding: 10px;
     border: 5px solid white;
 }
 #Geneticpic2 {
-    height: calc(100px + 25vw);
-    width: calc(100px + 40vw);
-    padding: 30px;
+    margin: 5px;
+    height: calc(100px + 20vw);
+    width: calc(100px + 35vw);
+    padding: 10px;
     border: 5px solid white;
 }
 #Geneticpic3 {
-    height: calc(100px + 25vw);
-    width: calc(100px + 40vw);
-    padding: 30px;
+    margin: 5px;
+    height: calc(100px + 20vw);
+    width: calc(100px + 35vw);
+    padding: 10px;
     border: 5px solid white;
 }
