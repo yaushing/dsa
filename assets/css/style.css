@@ -137,6 +137,7 @@ ul {
     font-size: 30px;
 }
 .Achievement-cert{
+    align-items: baseline;
     background-color: lightslategray;
     display: flex;
     justify-content: center;
@@ -151,6 +152,7 @@ ul {
 }
 .Jbtn {
     font-family: 'Raleway', sans-serif;
+    padding-top: 5px;
 }
 
 .btn {
@@ -224,19 +226,19 @@ ul {
     padding: 5px;
     height: calc(100px + 30vw);
     width: calc(100px + 30vw);
-    border: 5px solid white;
+    border: 1px solid white;
 }
 #Geneticpic2 {
     margin: 10x;
     padding: 5px;
     height: calc(100px + 20vw);
     width: calc(100px + 35vw);
-    border: 5px solid white;
+    border: 1px solid white;
 }
 #Geneticpic3 {
     margin: 10px;
     padding: 5px;
     height: calc(100px + 20vw);
     width: calc(100px + 35vw);
-    border: 5px solid white;
+    border: 1px solid white;
 }
