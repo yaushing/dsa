@@ -83,7 +83,7 @@ a {
     border: solid white 3px;
     padding: 5px;
     margin: 5px;
-    max-width: calc(100px + 30vw);
+    max-width: calc(100px + 35vw);
   }
   .vidsV {
       border: solid white 3px;
@@ -169,7 +169,7 @@ ul {
 /* ----------------------------------- */
 /* coding page */
 #mopeio {
-    max-width: 480px;
+    max-width: 470px;
     height: 364px;
     border: solid beige 3px;
     padding: 5px;
@@ -178,7 +178,7 @@ ul {
 
 #mySlides { 
     justify-content: center;
-    max-width: 480px;
+    max-width: 470px;
     border: solid beige 3px;
     padding: 5px;
     margin: 5px;
