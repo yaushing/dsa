@@ -83,7 +83,7 @@ a {
     border: solid white 3px;
     padding: 5px;
     margin: 5px;
-    max-width: calc(100px + 35vw);
+    max-width: calc(100px + 50vw);
   }
   .vidsV {
       border: solid white 3px;
@@ -211,7 +211,7 @@ ul {
 }
 .para {
     padding: 10px 5px;
-    font-size: calc(12px + 0.75vw);
+    font-size: calc(12px + 1vw);
     font-family: 'Raleway', sans-serif;
     min-width: 300px;
 }
