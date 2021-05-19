@@ -50,29 +50,9 @@ A demo of the site can be found here []()
 [W3C Validator](https://validator.w3.org/) for html validation. 
 
 [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) for css validation. 
-
-*please add your own testing here. eg. <br>  
-|    
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |                                                                                                                                                                                                                                                                                                                                                                                                                                            
-| **Test 1: Hyperlinks of navigation tabs / hamburger dropdowns with multiple screen size.**                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Expected:** 1. Navbar brings me to different specified pages. 2. Navbar turns to hamburger dropdown when screensize drops. <br> **Test:** Clicking on all different links to reload multiple times. <br/>**Result:** Multiple issues with some images noted; margins and flex issues noted; navigation controls works as expected.<br/>                                                                                                                                                           |
-
-<hr>
-
-## Deployment
-Steps taken to deploy: <br>
-1. 
-2. 
-3. 
-
-
+                                                      
 
 ## Acknowledgements
-
-### References
-1. 
-2. 
-3. 
 
 
 ### Credits

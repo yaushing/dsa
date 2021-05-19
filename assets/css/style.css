@@ -129,14 +129,7 @@ ul {
     padding: 5px 60px;
     font-family: 'Raleway', sans-serif;
 }
-.ATitleListDiv {
-    border: 5px solid gray;
-    background-color: lightslategray;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    font-family: 'Give You Glory', sans-serif;
-}
+
 .Achievement_Shortcut{
     display: flex;
     justify-content: center;
@@ -144,11 +137,16 @@ ul {
     font-size: 30px;
 }
 .Achievement-cert{
+    background-color: lightslategray;
     display: flex;
     justify-content: center;
     margin: 15px;
 }
 .Achievement-cert > div{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-family: 'Raleway', sans-serif;
     padding: 30px;
 }
 .btn {
