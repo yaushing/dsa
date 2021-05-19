@@ -153,10 +153,10 @@ ul {
     font-size: calc(16px + 1vw);
     font-weight: 700;
 }
-#DocumentforA {
+.DocumentforA {
     font-family: 'Raleway', sans-serif;
-    padding: 10px;
-    font-size: calc(10px+1vw);
+    padding: 30px;
+    font-size: calc(10px+5vw);
 }
 
 /* ----------------------------------- */
