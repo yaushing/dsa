@@ -29,8 +29,6 @@ font-family: 'Quicksand', sans-serif; <br>
 font-family: 'Raleway', sans-serif; <br>
 <hr>
 
-A demo of the site can be found here []()
-
 <hr>
 
 ## Built With 
@@ -56,9 +54,10 @@ A demo of the site can be found here []()
 
 
 ### Credits
-1. Khan Academy
-2. KayTrinh KAM
-3. 
+1. Khan Academy:Genetics info
+2. KayTrinh KAM : Logo
+3. Bootstrap 5.0
+4. W3schools
 
 
 

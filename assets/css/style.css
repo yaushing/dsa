@@ -85,13 +85,6 @@ a {
     margin: 5px;
     max-width: calc(100px + 50vw);
   }
-  .vidsV {
-      border: solid white 3px;
-      padding: 5px;
-      max-height: 374px;
-      margin: 5px;
-    }
-
 /* _____________________________________ */
 
 
@@ -191,20 +184,17 @@ ul {
     border: solid darkslategray 2px;
     border-radius: 10px;
 }
-#violin_vid {
-    max-width: 280px;
-    margin: -40% 0;
-}
+
 .vidflow {
-    max-width: 280px;
+    max-width: 300px;
     overflow:hidden;
-    display:block;
     border: solid darkslategray 2px;
     padding: 5px;
     margin: 5px 5px 30px 5px;
 }
 .violin_iframes {
-    max-width: 280px;
+    max-width: 300px;
+    height: 380px;
     border: solid darkslategray 2px;
     padding: 5px;
     margin: 5px 5px 30px 5px;
