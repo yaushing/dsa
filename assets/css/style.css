@@ -208,13 +208,12 @@ ul {
 
 /* ----------------------------------- */
 /* sports page */
-#Mpic {
+.spics {
     border: solid white 3px;
     padding: 5px;
     margin: 5px;
     max-width: calc(100px + 50vw);
   }
-
 .caption {
     position: relative;
     font-size: calc(12px + 1vw);
