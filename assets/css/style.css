@@ -212,20 +212,13 @@ ul {
     border: solid white 3px;
     padding: 5px;
     margin: 5px;
-
+    max-width: calc(100px + 50vw);
   }
 
-#container1 {
-    max-width: calc(100px + 50vw);
+.caption {
     position: relative;
-    text-align: center;
-    color: black;
-    }
-.top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
     font-size: calc(12px + 1vw);
+    padding: 5px;
     }
 /*------------------------------------ */
 /* dream job page */
