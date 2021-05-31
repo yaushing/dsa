@@ -54,10 +54,12 @@ font-family: 'Raleway', sans-serif; <br>
 
 
 ### Credits
-1. Khan Academy:Genetics info
+1. Khan Academy : Genetics info
 2. KayTrinh KAM : Logo
-3. Bootstrap 5.0
-4. W3schools
+3. Bootstrap 5.0 : carousel, text align
+4. W3schools : flexbox, nav bar
+5. hdwallpaperspulse.com : image of K2
+6. queenstownpri.moe.edu.sg : image of me in my CCA
 
 
 
