@@ -111,7 +111,7 @@ a {
 #aristotle-quote {
     border: none;
     padding: 10px 5px;
-    font-family: 'Give You Glory', cursive;
+    font-family: 'Give You Glory';
     font-size: calc(18px + 3vw);
 }
 
